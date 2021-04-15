@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../CSS/reg-style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="title-text">
+            <div class="title student">Student</div>
+            <div class="title recruiter">Recruiter</div>
+        </div>
+        <div class="form-container">
+            <div class="slide-controls">
+                <input type="radio" name="slide" id="student">
+                <input type="radio" name="slide" id="recruiter">
+                <label for="student" class="slide student">Student</label>
+                <label for="recruiter" class="slide recruiter">Recruiter</label>
+                <div class="slider-tab"></div>
+            </div>
+            <div class="form-inner">
+                <form action="#" class="student">
+                    <div class="field">
+                        <input type="text" placeholder="Full Name" required>
+                    </div>
+                    <div class="field">
+                        <input type="datetime" placeholder="Date of Birth" required>
+                    </div>
+                    <!-- <div class = "dob">
+                        <div class="dob-label"> <label for="dob">DOB:</label>
+                        </div>
+                        <div class="field">
+                            <input type="date" id = "dob" required>
+                        </div>
+                    </div> -->
+                    <div class="field">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="field">
+                        <input type="text" placeholder="City" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Confirm-Password" required>
+                    </div>
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Register">
+                    </div>
+                </form>
+                <form action="#" class="recruiter">
+                    <div class="field">
+                        <input type="text" placeholder="Full Name" required>
+                    </div>
+                    <div class="field">
+                        <input type="datetime" placeholder="Date of Birth" required>
+                    </div>
+                    <div class="field">
+                        <input type="text" placeholder="Company Name">
+                    </div>
+                    <div class="field">
+                        <input type="text" placeholder="City">
+                    </div>
+                    
+                    <div class="field">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Confirm-Password" required>
+                    </div>
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Register">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="../JS/reg.js"></script>
+
+
+
+</body>
+
+</html>
